@@ -1,0 +1,7 @@
+server:
+  port: 8000
+  boot:
+    admin:
+      client:
+        enabled: true
+        url: http://localhost:${server.port}
