@@ -5,7 +5,9 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>demo-admin</module>
-	</modules>
+        <module>demo-test</module>
+<!--        <module>demo-spring</module>-->
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
